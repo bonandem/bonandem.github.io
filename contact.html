@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <!--bootstrap libraries-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="styles/stylesheet.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+    <link rel="icon" href="assets/BonAndEmIcon.png">
+</head>
+<body>
+	<div class="header">
+
+        <!--the navigation menu-->
+        <nav class="navbar navbar-expand-inverse nav-bottom">
+            <div class="container-fluid">
+                
+                <div class="navbar-header" >
+                    <!--transforms navigation menu when page is resized-->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar" style="background-color: #aa5342;"></span>
+                        <span class="icon-bar" style="background-color: #aa5342;"></span>
+                        <span class="icon-bar" style="background-color: #aa5342;"></span>
+                    </button>
+                    <!--end of transforms.. -->
+                    <a class="navbar-brand" href="index.html" style="margin: 0px; max-width: 25%;"><img src="assets/BonAndEmLogo.png"></a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <!-- <li class="active">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="home.html">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Fun</a></li>
+                                <li><a href="#">Travel</a></li>
+                            </ul>
+                        </li>
+                    </li> -->
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--end of navigation menu--> 
+    </div>
+
+    <div>
+		<main class="page-about">
+			<section class="about-info">
+				<article id="contact-text">
+				<div>
+					<h1>Always feel free to connect with us.</h1>
+					<p>We are always looking to connect with new individuals around the world. Feel free to drop us a line using the contact form on the page or reach out to us through our social media channels!</p>
+					<h3>bonnienemily@gmail.com</h3>
+				</div>
+			</article>
+				<form class="contact-form" action="/action_page.php">
+					<label for="name">Name</label><br>
+					<input type="text" id="name" name="name"><br>
+					<label for="email">Email</label><br>
+					<input type="text" id="email" name="email"><br>
+					<label for="message">Message</label><br>
+					<input type="text" id="message" name="message"><br><br>
+					<input type="submit" value="Send">
+				</form>
+
+
+			</section>
+			
+			
+
+
+	</main><!-- /.page-main -->
+	</div>
+
+</body>
+</html>
