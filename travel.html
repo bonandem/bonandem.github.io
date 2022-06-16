@@ -1,3 +1,4 @@
+<!-- https://www.naxeem.com/articles/create-a-magazine-blog-layout-using-css-grid/ -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +11,7 @@
 	<link rel="stylesheet" href="styles/stylesheet.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Contact</title>
+	<title>Travel</title>
     <link rel="icon" href="assets/BonAndEmIcon.png">
 </head>
 <body>
@@ -53,27 +54,49 @@
         <!--end of navigation menu--> 
     </div>
 
-    <div>
-		<main class="page-about">
-            <div>
-                
+	<div class="grid">
+		     <main class="page-main">
+                <h1 class="heading" style="padding-bottom: 25px;"> Travel </h1>
+            <section class="recent-articles">
+                    <article class="recent-articles__recent-item article-box">
+                        <a href="blog/48/index.html" class="article-box__img">
+                            <img src="blog/48/assets/00.jpg" alt="">
+                        </a><!-- /.article-box__img -->
+                        <div class="article-box__body">
+                            <span class="article-box__meta">Travel  |  4/18/21</span><!-- /.article-box__meta -->
+                            <h2><a href="blog/48/index.html">San Francisco</a></h2>
+                            <h3>With the new incoming warm weather, where better to explore and enjoy the sunny weather than the great Bay area in the US, the city of San Francisco.</h3>
+                        </div><!-- /.article-box__body -->
+                    </article><!-- /.recent-articles__recent-item -->
 
-            </div>
-			<section class="about-info">
-				<article id="contact-text">
-				<div>
-					<h1>Always feel free to connect with us.</h1>
-					<p>We are always looking to connect with new individuals around the world. Feel free to drop us a line using the email below or reach out to us through our social media channels!</p>
-					<h3>bonnienemily@gmail.com</h3>
-				</div>
-			</article>
-                <img src="assets/us2.jpg" style="width: 100%;">
-			</section>
 
-            <br>
-			
+                    <article class="recent-articles__recent-item article-box">
+                        <a href="blog/07/index.html" class="article-box__img">
+                            <img src="blog/07/assets/00.jpg" alt="">
+                        </a><!-- /.article-box__img -->
+                        <div class="article-box__body">
+                            <span class="article-box__meta">Travel  |  11/13/20</span><!-- /.article-box__meta -->
+                            <h2><a href="blog/07/index.html">Exploring London</a></h2>
+                            <h3>Ah yes, the great city of London, home of the queen’s thirty or so corgis and the most soothing and pleasing of English accents.</h3>
+                        </div><!-- /.article-box__body -->
+                    </article><!-- /.recent-articles__recent-item -->
 
-            <div class="footer">
+
+                    <article class="recent-articles__recent-item article-box">
+                        <a href="blog/03/index.html" class="article-box__img">
+                            <img src="blog/03/assets/00.jpg" alt="">
+                        </a><!-- /.article-box__img -->
+                        <div class="article-box__body">
+                            <span class="article-box__meta">Travel  |  10/29/20</span><!-- /.article-box__meta -->
+                            <h2><a href="blog/03/index.html">A Day in Versailles</a></h2>
+                            <h3>We know Paris has enough museums to visit and walks along the Seine to fill up your whole trip, but don’t forget about a beautiful place just outside the city-- Versailles.</h3>
+                        </div><!-- /.article-box__body -->
+                    </article><!-- /.recent-articles__recent-item -->
+
+        </section><!-- /.recent-articles -->
+
+
+        <div class="footer">
                 <br>
                 <br>
                 <section class="recent-articles topic"><!-- /social icons -->
@@ -84,7 +107,7 @@
                     </div>
                 </section><!-- /social icons-->  
             </div> <!-- /footer-->
-	</main><!-- /.page-main -->
+    </main><!-- /.page-main -->
 	</div>
 
 </body>

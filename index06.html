@@ -1,0 +1,130 @@
+<!-- https://www.naxeem.com/articles/create-a-magazine-blog-layout-using-css-grid/ -->
+<!DOCTYPE html>
+<html>
+<head>
+
+ <!--bootstrap libraries-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="styles/stylesheet.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bon & Em</title>
+    <link rel="icon" href="assets/BonAndEmIcon.png">
+</head>
+<body>
+	<div class="header">
+
+        <!--the navigation menu-->
+        <nav class="navbar navbar-expand-inverse nav-bottom">
+            <div class="container-fluid">
+                
+                <div class="navbar-header" >
+                    <!--transforms navigation menu when page is resized-->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar" style="background-color: #aa5342;"></span>
+                        <span class="icon-bar" style="background-color: #aa5342;"></span>
+                        <span class="icon-bar" style="background-color: #aa5342;"></span>
+                    </button>
+                    <!--end of transforms.. -->
+                    <a class="navbar-brand" href="index.html" style="margin: 0px; max-width: 25%;"><img src="assets/BonAndEmLogo.png"></a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <!-- <li class="active">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="home.html">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Fun</a></li>
+                                <li><a href="#">Travel</a></li>
+                            </ul>
+                        </li>
+                    </li> -->
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--end of navigation menu--> 
+    </div>
+
+	<div class="grid">
+		     <main class="page-main">
+        <section class="recent-articles">
+                    <article class="recent-articles__recent-item article-box">
+                        <a href="blog/03/index.html" class="article-box__img">
+                            <img src="blog/03/assets/00.jpg" alt="">
+                        </a><!-- /.article-box__img -->
+                        <div class="article-box__body">
+                            <span class="article-box__meta">Travel  |  10/29/20</span><!-- /.article-box__meta -->
+                            <h2><a href="blog/03/index.html">A Day in Versailles</a></h2>
+                            <h3>We know Paris has enough museums to visit and walks along the Seine to fill up your whole trip, but don’t forget about a beautiful place just outside the city-- Versailles.</h3>
+                        </div><!-- /.article-box__body -->
+                    </article><!-- /.recent-articles__recent-item -->
+
+
+                    <article class="recent-articles__recent-item article-box">
+                        <a href="blog/02/index.html" class="article-box__img">
+                            <img src="blog/02/assets/00.jpg" alt="">
+                        </a><!-- /.article-box__img -->
+                        <div class="article-box__body">
+                            <span class="article-box__meta">Food  |  10/22/20</span><!-- /.article-box__meta -->
+                            <h2><a href="blog/02/index.html">Kale Pesto Pasta</a></h2>
+                            <h3>With all the quarantine cooking taking over the web, we thought you all might also want to try your hand at a healthy -- but delicious-- meal.</h3>
+                        </div><!-- /.article-box__body -->
+                    </article><!-- /.recent-articles__recent-item -->
+
+
+                    <article class="recent-articles__recent-item article-box">
+                        <a href="blog/01/index.html" class="article-box__img">
+                            <img src="blog/01/assets/00.jpg" alt="">
+                        </a><!-- /.article-box__img -->
+                        <div class="article-box__body">
+                            <span class="article-box__meta">Fun  |  10/15/20</span><!-- /.article-box__meta -->
+                            <h2><a href="blog/01/index.html">Welcome to Our Blog!</a></h2>
+                            <h3>We are Bonnie and Emily, two friends that came together through our love for food, travel, and design.</h3>
+                        </div><!-- /.article-box__body -->
+                    </article><!-- /.recent-articles__recent-item -->
+
+
+
+                    <article class="recent-articles__recent-item article-box">
+                        <div class="article-box__body">
+                            <a href="index05.html" style="font-size: 15px; float: right;">< Newer</a>
+                        </div><!-- /.article-box__body -->
+                    </article><!-- /.recent-articles__recent-item -->
+
+                    <article class="recent-articles__recent-item article-box">
+                        
+                    </article><!-- /.recent-articles__recent-item -->
+
+                    <article class="recent-articles__recent-item article-box">
+                        
+                    </article><!-- /.recent-articles__recent-item -->
+
+
+        </section><!-- /.recent-articles -->
+
+
+        <div class="footer">
+                <br>
+                <br>
+                <section class="recent-articles topic"><!-- /social icons -->
+                    <br>
+                    <div class="doubleimg">
+                        <a href="https://www.instagram.com/bonandem_/" target="_blank"><img style="width: 35px; float: right;" src="assets/Insta.png"></a>
+                        <a href="https://www.youtube.com/channel/UCUkQ8dMXtq3zWHahbA2Lqig" target="_blank"><img style="width: 35px; float: left;" src="assets/Youtube.png"></a>
+                    </div>
+                </section><!-- /social icons-->  
+            </div> <!-- /footer-->
+    </main><!-- /.page-main -->
+	</div>
+
+</body>
+</html>
